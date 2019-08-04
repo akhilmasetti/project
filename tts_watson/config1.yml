@@ -1,0 +1,5 @@
+url: https://stream-fra.watsonplatform.net/text-to-speech/api
+user: "apikey"
+password: tUxXGGwFspimXERKvsOWIpZ8WxE8prD4FB6tGipoN_UY
+chunk: 2048 # chunk in byte to send to pyaudio to create the sound (reponse from watson is streamed) ** don't touch if you don't know what you do Michael**
+voice: en-GB_KateVoice # voices can be found here: https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/text-to-speech/using.shtml#voices 
