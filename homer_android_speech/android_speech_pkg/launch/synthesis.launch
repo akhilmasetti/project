@@ -1,0 +1,5 @@
+<launch>
+	<param name="~host" value="192.168.43.121" />
+	<param name="~port" value="8051" />
+	<node name="android_speech_synthesis" pkg="android_speech_pkg" type="android_speech_synthesis.py" output="screen" />
+</launch>
